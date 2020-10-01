@@ -1,0 +1,14 @@
+{
+    "name": "da-manager-3",
+    "version": "1.0.0",
+    "description": "da-manager website",
+    "main": "index.js",
+    "scripts": {
+        "sass": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Augustine Godspower",
+    "license": "MIT",
+    "dependencies": {
+        "node-sass": "^4.14.1"
+    }
+}
