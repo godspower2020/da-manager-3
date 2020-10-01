@@ -283,13 +283,20 @@ basic styles
     border-bottom: 1.5px solid #f4f4f4;
 }
 
-.top-nav li.nav-item a {
+.top-nav ul li.nav-item a {
     color: #1f4a8a;
 }
 
 .bottom-nav {
     background: #fff;
     box-shadow: 0 10px 8px rgba(0, 0, 0, .2);
+}
+
+.bottom-nav ul li.nav-item a {
+    color: #222;
+    font-weight: bolder;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
 .bottom-nav ul ul p {
@@ -376,8 +383,13 @@ DOMAIN & PRODUCTS BLUE BOX STYLES STYLES
     align-items: center;
 }
 
-.domain-1-box span.make-brown {
+.domain-1-box span.make-brown,
+.flex-container-3 p.make-brown {
     color: #ed9000;
+}
+
+.flex-container-3 span.bold {
+    font-weight: bold;
 }
 
 .col {
@@ -506,7 +518,6 @@ button#myBtn i {
     position: absolute;
     width: 0;
     height: 100%;
-    padding: 10px o !important;
     border-radius: 10px;
     transition: 0.2s ease;
     background: rgba(0, 0, 205, 0.1);
@@ -547,13 +558,6 @@ button#myBtn i {
 
 .bottom-nav ul li:hover {
     transition: all 0.5s ease-out;
-}
-
-.bottom-nav ul li a {
-    color: #222;
-    font-weight: bold;
-    font-size: 13px;
-    text-transform: uppercase;
 }
 
 .bottom-nav ul li:hover a {
@@ -694,6 +698,12 @@ li.nav-item img.menu-svg {
 
 .section-1 h1 {
     font-size: 50px;
+    font-weight: bolder;
+}
+
+.section-1 li,
+.section-1 h3 {
+    font-size: 19px;
 }
 
 }
